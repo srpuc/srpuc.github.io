@@ -1,0 +1,122 @@
+.outer {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 800px;
+}
+
+.container-top {
+    
+}
+
+.contacto {
+    padding: 20px;
+    width: 30vw;
+    background-color: white;
+    border: 0px;
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+    border-radius: 0.5rem;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.direccion {
+    padding: 20px;
+    width: 30vw;
+    background-color: white;
+    border: 0px;
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+    border-radius: 0.5rem;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+
+
+.formulario {
+    padding: 20px;
+    width: 70vw;
+    background-color: #121212;
+    border: 0px;
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+    border-radius: 0.5rem;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.formulario p {
+    color: white;
+}
+
+
+
+
+
+
+.enviar {
+    padding: 20px;
+    width: 70vw;
+    background-color: white;
+    border: 0px;
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+    border-radius: 0.5rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.enviar p {
+    margin: 0;
+}
+
+
+
+
+
+
+.datos {
+    height: 180px;
+}
+
+.titulo {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.error {
+    display: none;
+    margin: 0px;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+p {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+input {
+    height: 40px;
+    border: 0px;
+    border-radius: 0.5rem;
+    padding: 10px;
+    width: 500px;
+}
+
+textarea {
+    height: 180px;
+    border: 0px;
+    border-radius: 0.5rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 700px;
+}

@@ -1,0 +1,85 @@
+/* MAIN */
+.main-reserva {
+    height: 550px;
+}
+
+/* SIDE IMAGES */
+.side-img {
+    height: 400px;
+    width: 400px;
+}
+
+.side-img img {
+    height: 100%;
+}
+
+/* MAIN SECTIONS */
+.section-title {
+    display: inline;
+}
+
+.section-title p {
+    font-size: 2vw;
+}
+
+/* MAIN CARROUSELS */
+.carrousel {
+    padding-bottom: 10vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+.carrousel p {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+/* RESERVA */
+.reserva {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.sub-reserva {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* CARDS */
+.card {
+    border: 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 10px;
+}
+
+.card p {
+    font-size: 20px;
+}
+
+.card-body {
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.card-body p {
+    margin: 0px;
+}
+
+.card-title {
+    margin-top: 20px;
+}
+
+/* COLOR ACCENT */
+.gray-text {
+    color: #515151;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8c8c8c;
+}

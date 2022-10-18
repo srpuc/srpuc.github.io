@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" class="d-none" >
+
+<!-- HEAD -->
+<head>
+
+    <!-- PAGE INFO -->
+    <title>DOGS & GO</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- BOOTSTRAP & JQUERY -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- SCRIPTS -->
+    <script src="./js/header.js"></script>
+    <script src="./js/footer.js"></script>
+    <script src="./js/carrousel_promoted.js"></script>
+
+    <!-- STYLE -->
+    <link href="http://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/productos.css">
+
+</head>
+
+<!-- BODY -->
+<body>
+
+    <!-- HEADER -->
+    <header></header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- SERVICE REDIRECT -->
+        <div class="d-flex justify-content-center align-items-center" >
+
+            <!-- IMG LEFT -->
+            <div class="side-img d-flex justify-content-center me-5">
+                <img src="./img/main_1.png" alt="...">
+            </div>
+
+            <!-- CENTER TEXTS -->
+            <div class="main-reserva d-flex flex-column justify-content-center align-items-center">
+
+                <p class="sub-reserva"> La peluqueria de tu perro. </p>
+                <p class="reserva"> Haz tu <a href="./pages/reservar.html" class="gray-text text-decoration-none" >reserva</a>. </p>
+    
+            </div>
+
+            <!-- IMG RIGHT -->
+            <div class="side-img d-flex justify-content-center ms-5">
+                <img src="./img/main_2.png" alt="...">
+            </div>
+
+        </div>
+
+        <!-- CARROUSEL - PROMOTED -->
+        <div class="carrousel">
+
+            <div class="col-12 section-title d-flex justify-content-start mb-4">
+                <p> Productos destacados </p>
+            </div>
+            
+
+            <div class="wrapper destacado">
+                <div class="carrousel-wrapper d-flex align-items-center justify-content-center">
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer></footer>
+
+</body>
+
+<!-- WAIT TO SHOW PAGE UNTIL ITS LOADED -->
+<script>
+    setTimeout( function() {
+        $('html')[0].className = ''
+    }, 100)
+</script>
+
+</html>

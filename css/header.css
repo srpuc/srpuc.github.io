@@ -1,0 +1,24 @@
+html {
+    cursor: default;
+    background-color: #121212;
+}
+
+body *{
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+header {
+    height: 45px;
+    background-color: #121212;
+}
+
+header a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+}
+
+header a:hover {
+    color: #d0c7c7;
+}

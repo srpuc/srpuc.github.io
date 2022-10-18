@@ -1,0 +1,8 @@
+main *{
+    color: black;
+}
+
+main {
+    background-color: #fbfbfb;
+    min-height: calc(100vh - 145px);
+}
